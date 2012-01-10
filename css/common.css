@@ -58,12 +58,14 @@ body {
 	background-color:rgba(0,0,0,.1); /* Sets the body BG to grey */
 	border:1px solid rgba(0,0,0,.4); /* A border to make it more defined */
 	padding:1em; /* and some breathing room */
-	margin:0 auto; /* To center the body on the page */
+	margin:1em auto; /* To center the body on the page */
 	}
 
-h1 {font-family:proxima-nova, sans-serif;}	
+h1 {font-weight:bold; font-size:2em;
+	padding-bottom:1em;}	
 	
 p {
-	font-family:ff-dagny-web-pro, sans-serif;
-	line-height:1.5em;
+	font-family:georgia,serif;
+	color:rgba(0,0,0,.9);
+	line-height:1.6em;
 	padding-bottom:1em;}
